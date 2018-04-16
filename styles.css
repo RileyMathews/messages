@@ -1,0 +1,22 @@
+span {
+    padding: 2em;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section:nth-child(even) {
+    align-content: right;
+    text-align: right;
+}
+
+article {
+    width: 50%;
+    margin: auto;
+    padding: 1em;
+    border: 5px solid black;
+    border-radius: 1em;
+}
